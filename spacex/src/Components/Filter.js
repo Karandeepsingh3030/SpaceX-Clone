@@ -10,7 +10,7 @@ const Filter = () => {
 
 const handleFilter = (e,filtertype,check) => {
     let isFiltered = true 
-    
+
     if (e.target.classList.contains("active")) {
         isFiltered = false
     }
@@ -29,7 +29,7 @@ if (filtertype === "launch") {
     filterDispatch(filterData(check,isFiltered,filterCatagory))
     return 
 }
-if (filtertype === "launch") {
+if (filtertype === "landing") {
     const filterCatagory = "launch_success"
     filterDispatch(filterData(check,isFiltered,filterCatagory))
 }
