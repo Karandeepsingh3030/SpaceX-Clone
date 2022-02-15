@@ -16,7 +16,7 @@ const Content = () => {
     },[])
     useEffect(() => {
     isFiltered? setDatas(filteredData) : setDatas(data)
-    },[isFiltered])
+    },[isFiltered, filteredData])
     const fetchData = async () => {
         try {
             const resp = await axios('https://api.spacexdata.com/v3/launches?limit=100');

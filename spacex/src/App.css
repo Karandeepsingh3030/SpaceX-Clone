@@ -40,7 +40,7 @@ html {
   margin-bottom: 1rem;
 }
 .filter-container h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .list {
@@ -54,6 +54,8 @@ margin: 1rem 0;
   height: 3rem;
   margin: 0 auto;
   cursor: pointer;
+  border: none;
+  border-radius: 1rem;
 }
 /* card */
 
@@ -81,6 +83,7 @@ margin: 1rem 0;
 }
 
 .active {
-  background-color: green;
+  color: #fff;
+  background-color : #20bf55;
 }
 
