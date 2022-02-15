@@ -8,8 +8,8 @@ return (<>
     <h3>{missionName}</h3>
     <h4>Mission Id : <span>{missionId.length > 0? missionId : "No Data"}</span> </h4>
     <h4>Launch Year : <span>{missionYear}</span> </h4>
-    <h4>Successful Launch :  <span>{launchSuccess}</span> </h4>
-    <h4>Successful Landing : <span>{launchSuccess}</span> </h4>
+    <h4>Successful Launch :  <span>{launchSuccess === true? "true" :"false"}</span> </h4>
+    <h4>Successful Landing : <span>{launchSuccess === true? "true" :"false"}</span> </h4>
     </div>
 </div>
 </>)

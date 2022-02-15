@@ -4,6 +4,7 @@ import Filter from './Components/Filter';
 
 function App() {
   return (<>
+  <h1 className='title'>SpaceX Launch Programs</h1>
   <div className='container'>
    <Filter />
    <Content />
